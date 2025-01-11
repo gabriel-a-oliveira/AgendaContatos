@@ -86,7 +86,7 @@ class Menu:
         nome = input("Digite o nome do contato que deseja excluir: ")
         self.agenda.excluir_contato(nome)
 
-    def mkhbuhg(self):
+    def sair(self):
         print("Saindo da agenda. Até logo!")
 
 menu = Menu()
